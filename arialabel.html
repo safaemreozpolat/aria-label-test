@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div>
+    <div id="myNameId">Name</div>
+    <input type="text" aria-labelledby="myBillingId myNameId"/>
+</div>
+<div>
+    <div id="myAddressId">Address</div>
+    <input type="text" aria-labelledby="myBillingId myAddressId"/>
+    <button
+aria-label="SAYFAYI KAPAT"
+title="Close" onclick="myDialog.close()">X</button>
+</div>
+
+<button title="Close"> X </button>
+    
+
+    <div role="menubar">
+        <div role="menuitem" aria-haspopup="true" id="fileMenu">File</div>
+        <div role="menu" aria-labelledby="fileMenu">
+            <div role="menuitem">Open</div>
+            <div role="menuitem">Save</div>
+            <div role="menuitem">Save as ...</div>
+        </div>
+    </div>
+</body>
+</html>
